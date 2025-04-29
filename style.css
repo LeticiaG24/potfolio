@@ -37,7 +37,7 @@ button:hover {
 .section2 > hr {
     margin: 10px 45%;
 }
-.section2 > button {
+.section2 > a > button {
     background-color: #5A5E6E;
     color: white;
     border: none;
@@ -77,6 +77,9 @@ h4 {
     border: none;
     color: white;
     cursor: pointer;
+}
+.projects > div > hr {
+    margin: 5px 15px;
 }
 .skills {
     display: grid;
