@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+nav > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.aboutme {
+    background-image: url(/stars_background.png);
+    color: white;
+}
+.section2 {
+    background-color: #090A19;
+}
+.section2 > h2 {
+    color: white;
+    text-align: center;
+}
+.section2 > button {
+    background-color: #5A5E6E;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.curriculum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.curriculum > div {
+    color: white;
+}
+h4 {
+    text-align: center;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    gap: 10px;
+}
+.projects > div {
+    background-color: #000000;
+}
+div > button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.skills > div {
+    background-color: #000000;
+    border: 1px solid #7E88AD;
+    color: #7E88AD;
+}
+.certifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.certifications > div {
+    background-color: white;
+}
+footer {
+    background-color: #1F2332;
+}
+footer > h2 {
+    color: white;
+    text-align: center;
+}
+i {
+    color: white;
+}
+span {
+    color: white;
+}
