@@ -22,7 +22,7 @@ button:hover {
     color: #7E88AD;
 }
 .aboutme {
-    background: url(/stars.jpeg) no-repeat center;
+    background: url(/img/stars.jpeg) no-repeat center;
     background-size: cover;
     color: white;
     padding: 120px 50px;
