@@ -13,8 +13,7 @@ main {
     background-color: #5A5E6E;
     color: white;
     max-width: 800px;
-    margin: 5% auto;
-    border-radius: 20px;
+    margin: 30px auto;
     padding: 10px;
 }
 h1 {
@@ -42,4 +41,7 @@ header > a > button {
     border: none;
     cursor: pointer;
     font-size: large;
+}
+h3 {
+    margin: 15px 0;
 }
