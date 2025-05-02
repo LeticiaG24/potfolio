@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px;
+    background-color: #090A19;
+}
+body {
+    background-color: #5A5E6E;
+}
+main {
+    background-color: #5A5E6E;
+    color: white;
+    max-width: 800px;
+    margin: 5% auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    margin: 10px 0;
+}
+a, i {
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+}
+.git {
+    background-color: #090A19;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+header > a > button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
