@@ -22,7 +22,8 @@ button:hover {
     color: #7E88AD;
 }
 .aboutme {
-    background-image: url(/stars_background.png);
+    background: url(/stars.jpeg) no-repeat center;
+    background-size: cover;
     color: white;
     padding: 120px 50px;
 }
@@ -32,10 +33,10 @@ button:hover {
 .section2 > h2 {
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5%;
 }
 .section2 > hr {
-    margin: 10px 45%;
+    margin: 10px 45% 3% 45%;
 }
 .section2 > a > button {
     background-color: #5A5E6E;
@@ -50,7 +51,8 @@ button:hover {
 .curriculum {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px 300px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .curriculum > div {
     color: white;
@@ -63,7 +65,8 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
     gap:20px;
-    margin: 0px 300px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 .projects > div {
     background-color: #000000;
@@ -85,7 +88,8 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    margin: 0px 200px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 .skills > div {
     background-color: #000000;
@@ -97,18 +101,21 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    margin: 0px 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 5%;
 }
 .certifications > div {
     background-color: white;
     margin-bottom: 15px;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 .certifications > div > a > button {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin: 10px;
 }
 img {
     width: 100%;
