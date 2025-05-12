@@ -47,6 +47,8 @@ button:hover {
     cursor: pointer;
     display: block;
     margin: 20px auto;
+}
+.section2 > a {
     text-decoration: none;
 }
 .curriculum {
@@ -154,6 +156,9 @@ footer > div {
     gap: 10px;
     padding: 18px;
 }
+footer i:hover {
+   text-decoration: underline; 
+}
 [id] {
     scroll-margin-top: 80px;
 }
@@ -178,7 +183,7 @@ footer > div {
         padding: 10px;
     }
     .projects > div {
-        min-width: 190px;
+        min-width: 210px;
     }
     .projects::-webkit-scrollbar {
         display: none;
