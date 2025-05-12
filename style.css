@@ -47,6 +47,7 @@ button:hover {
     cursor: pointer;
     display: block;
     margin: 20px auto;
+    text-decoration: none;
 }
 .curriculum {
     display: grid;
@@ -161,12 +162,16 @@ footer > div {
     nav {
         display: none;
     }
+    .section2 > a > button {
+        margin-top: 20px;
+    }
     .curriculum {
         display: flex;
         flex-direction: column;
+        gap: 25px;
     }
     .curriculum h4 {
-        padding: 35px 0 10px;
+        padding: 10px 0;
     }
     .projects {
         overflow-x: auto;
