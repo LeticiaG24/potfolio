@@ -4,13 +4,12 @@
 }
 header {
     padding: 20px;
-    background-color: #090A19;
+    background-color: #1F2332;
 }
 body {
-    background-color: #5A5E6E;
+    background-color: #090A19;
 }
 main {
-    background-color: #5A5E6E;
     color: white;
     max-width: 800px;
     margin: 30px auto;
@@ -28,7 +27,7 @@ a, i {
     padding: 8px;
 }
 .git {
-    background-color: #090A19;
+    background-color: #5A5E6E;
     margin: 0 auto;
     display: block;
     border-radius: 15px;
