@@ -1,13 +1,17 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 1.1rem;
+}
+h1 {
+    font-size: 25px;
 }
 header {
     padding: 20px;
-    background-color: #1F2332;
+    background-color: black;
 }
 body {
-    background-color: #090A19;
+    background-image: linear-gradient(black, #1b1d3b);
 }
 main {
     color: white;
