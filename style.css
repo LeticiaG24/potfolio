@@ -64,7 +64,7 @@ button:hover {
     padding: 5px 30px;
     cursor: pointer;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto 10px;
 }
 .section2 > a {
     text-decoration: none;
@@ -95,7 +95,7 @@ h4 {
 .projects > div {
     background-color: black;
     border-radius: 8px;
-    padding: 15px;
+    padding: 0 15px;
     text-align: center;
     box-shadow: 0px 8px 9px #2c2c47;
 }
@@ -104,7 +104,7 @@ h4 {
     border: none;
     color: white;
     cursor: pointer;
-    margin-top: 5px;
+    margin: 5px 0 15px;
 }
 .projects > div > hr {
     margin: 5px 15px;
@@ -131,6 +131,7 @@ h4 {
     color: #7E88AD;
     padding: 10px;
     width: 1fr;
+    height: 1fr;
 }
 .certifications {
     display: grid;
@@ -197,12 +198,6 @@ footer i:hover {
     }
     nav {
         display: none;
-    }
-    .aboutme {
-        height: 90vh;
-    }
-    .section2 > a > button {
-        margin-top: 20px;
     }
     .curriculum {
         display: flex;
