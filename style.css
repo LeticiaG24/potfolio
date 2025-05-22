@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 h1 {
     font-size: 60px;
@@ -131,7 +132,6 @@ h4 {
     color: #7E88AD;
     padding: 10px;
     width: 1fr;
-    height: 1fr;
 }
 .certifications {
     display: grid;
@@ -183,7 +183,7 @@ footer i:hover {
    text-decoration: underline; 
 }
 [id] {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 60px;
 }
 
 @media (max-width: 768px) {
