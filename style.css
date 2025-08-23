@@ -45,6 +45,7 @@ button:hover {
 }
 .aboutme > p {
     padding-top: 10px;
+    max-width: 1000px;
 }
 .section2 {
     background-image: linear-gradient(black, #090A19);
@@ -119,19 +120,60 @@ h4 {
 .projects button:hover {
     color: #7E88AD;
 }
+.projects span {
+    background-color: #2c2c47;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.projects img {
+    margin-bottom: 10px;
+}
 .skills {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr;
+    gap: 10px;
+    justify-items: center;
+    max-width: 800px;
+    justify-self: center;
+}
+h3 {
+    color: #7E88AD;
+    font-size: 25px;
+}
+.hard {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: azure;
+    gap: 10px;
+    background-color: #000000;
+    border: 1px solid #7E88AD;
+    padding: 10px 20px;
+}
+.hard > img {
+    height: 70px;
+}
+.soft {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     max-width: 500px;
     margin: 0 auto;
 }
-.skills > div {
+.soft > div {
     background-color: #000000;
     border: 1px solid #7E88AD;
     color: #7E88AD;
     padding: 10px;
     width: 1fr;
+    justify-items: center;
 }
 .certifications {
     display: grid;
@@ -228,7 +270,7 @@ footer i:hover {
         display: none;
     }
     .skills {
-        padding: 0 10px;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
     }
 }
