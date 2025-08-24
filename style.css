@@ -61,7 +61,7 @@ button:hover {
 .section2 > a > button {
     background-color: #5A5E6E;
     color: white;
-    border: none;
+    border: 1px solid #8f93a3;
     border-radius: 15px;
     padding: 5px 30px;
     cursor: pointer;
@@ -87,17 +87,17 @@ h4 {
     text-align: center;
 }
 .projects {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     color: white;
     gap:20px;
-    max-width: 850px;
+    justify-content: center;
     margin: 0 auto;
 }
 .projects > div {
     background-color: black;
     border-radius: 8px;
     padding: 0 15px;
+    width: 300px;
     text-align: center;
     box-shadow: 0px 8px 9px #2c2c47;
 }
@@ -120,11 +120,17 @@ h4 {
 .projects button:hover {
     color: #7E88AD;
 }
-.projects span {
+.ferramentas {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.ferramentas p {
     background-color: #2c2c47;
     padding: 5px 15px;
-    margin: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
+    font-size: 15px;
 }
 .projects img {
     margin-bottom: 10px;
@@ -154,6 +160,7 @@ h3 {
     background-color: #000000;
     border: 1px solid #7E88AD;
     padding: 10px 20px;
+    margin: 8px;
 }
 .hard > img {
     height: 70px;
@@ -166,6 +173,7 @@ h3 {
     gap: 10px;
     max-width: 500px;
     margin: 0 auto;
+    padding: 8px;
 }
 .soft > div {
     background-color: #000000;
@@ -173,7 +181,7 @@ h3 {
     color: #7E88AD;
     padding: 10px;
     width: 1fr;
-    justify-items: center;
+    text-align: center;
 }
 .certifications {
     display: grid;
@@ -235,8 +243,14 @@ footer i:hover {
     h2 {
         font-size: 26px;
     }
+    #projects, #skills, #cert {
+        margin-top: 50px;
+    }
     h1 {
         font-size: 45px;
+    }
+    h3 {
+        text-align: center;
     }
     nav {
         display: none;
@@ -252,9 +266,11 @@ footer i:hover {
     .projects {
         overflow-x: auto;
         padding: 10px;
+        justify-content: left;
     }
     .projects > div {
-        min-width: 210px;
+        min-width: 260px;
+        max-height: 400px;
     }
     .projects::-webkit-scrollbar {
         display: none;
