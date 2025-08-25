@@ -94,6 +94,8 @@ h4 {
     margin: 0 auto;
 }
 .projects > div {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     border-radius: 8px;
     padding: 0 15px;
@@ -109,7 +111,7 @@ h4 {
     margin: 5px 0 15px;
 }
 .projects > div > hr {
-    margin: 5px 15px;
+    margin: auto 5px 15px;
 }
 .projects p {
     padding: 10px 0;
@@ -160,7 +162,7 @@ h3 {
     background-color: #000000;
     border: 1px solid #7E88AD;
     padding: 10px 20px;
-    margin: 8px;
+    margin: 10px;
 }
 .hard > img {
     height: 70px;
@@ -173,7 +175,7 @@ h3 {
     gap: 10px;
     max-width: 500px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 10px;
 }
 .soft > div {
     background-color: #000000;
@@ -251,6 +253,7 @@ footer i:hover {
     }
     h3 {
         text-align: center;
+        margin-top: 40px;
     }
     nav {
         display: none;
