@@ -186,10 +186,9 @@ h3 {
     text-align: center;
 }
 .certifications {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     gap: 10px;
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 5%;
 }
@@ -281,6 +280,7 @@ footer i:hover {
     .certifications {
         overflow-x: auto;
         padding: 10px;
+        justify-content: left;
     }
     .certifications > div {
         min-width: 200px;
